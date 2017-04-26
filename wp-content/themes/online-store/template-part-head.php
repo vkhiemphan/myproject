@@ -53,11 +53,11 @@
 		</header>
 		<?php // Shopping Cart ?>
 		<?php if ( function_exists( 'maxstore_header_cart' ) ) { ?> 
-			<div class="header-cart text-right col-sm-2 col-sm-push-6">
+			<div class="header-cart text-right col-sm-2 col-sm-push-7">
 				<?php maxstore_header_cart(); ?>
 			</div>
 		<?php } ?>
-		<div class="header-search-alt-2 col-sm-6 col-xs-12 col-sm-pull-2"> 
+		<div class="header-search-alt-2 col-sm-7 col-xs-12 col-sm-pull-2">
 			<?php if ( get_theme_mod( 'search-bar-check', 1 ) == 1 && class_exists( 'WooCommerce' ) ) : ?> 
 			<div class="header-line-search row <?php echo get_theme_mod( 'searchbar-mobile', 'hidden-xs' ); ?>">
 				<div class="header-categories col-md-3 col-xs-4">
